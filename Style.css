@@ -1,0 +1,70 @@
+/* Base styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FAFAFA; /* off-white */
+  margin: 0;
+  padding: 0;
+  color: #333333; /* charcoal gray */
+}
+
+/* Header / Hero Section */
+header {
+  background: url('hero.jpg') no-repeat center center;
+  background-size: cover;
+  color: #FFFDF7; /* ivory overlay text */
+  text-align: center;
+  padding: 100px 20px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #1C1C3C; /* deep navy */
+}
+
+header p {
+  font-size: 1.2em;
+  color: #F4C2C2; /* blush pink accent */
+}
+
+button.cta {
+  background-color: #65000B; /* rosewood */
+  color: #FFFDF7;
+  padding: 12px 24px;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button.cta:hover {
+  background-color: #9CAF88; /* sage green hover */
+}
+
+/* Navigation */
+nav {
+  background-color: #E6BE8A; /* champagne gold */
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #1C1C3C; /* deep navy */
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #65000B; /* rosewood hover */
+}
+
+/* Main content */
+main {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  color: #1C1C3C; /* deep navy */
+  margin-top: 30px;
+}
